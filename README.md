@@ -9,6 +9,8 @@ is.
 The name of the gem may be provided as an argument, or you will be prompted for
 it if no argument is given.
 
+![](http://hmarr.com/vim-gemfile/images/vim-gemfile.gif)
+
 ## Installation
 
 Assuming you're using Vundle or similar, add the following to your vimrc:
