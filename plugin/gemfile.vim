@@ -25,4 +25,4 @@ def _gemfile_add(gem_name=None):
     vim.command('execute "normal o\\<Space>\\<BS>\\<Esc>"')
     vim.current.line += gem_definition
 EOF
-command -nargs=* GemfileAdd :python _gemfile_add(<f-args>)
+command! -nargs=* GemfileAdd :python _gemfile_add(<f-args>)
